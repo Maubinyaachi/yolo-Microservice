@@ -1,0 +1,6 @@
+---
+- name: Install client package
+  apt:
+    name: "{{ client_package }}"
+    state: present
+  tags: client

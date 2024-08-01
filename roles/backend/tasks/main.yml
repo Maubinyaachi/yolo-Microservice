@@ -1,0 +1,6 @@
+---
+- name: Install backend package
+  apt:
+    name: "{{ backend_package }}"
+    state: present
+  tags: backend
