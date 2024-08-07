@@ -7,7 +7,7 @@ services:
       dockerfile: dockerfile  # Backend uses a Dockerfile
     image: maubi/myapp-backend:1.0.0  # Add your desired tag here
     ports:
-      - "5000:5000"  # Expose port 5000 for the backend
+      - "5000:3000"  # Expose port 5000 for the backend
     environment:
       - MONGODB_URI=mongodb://mongo:27017/yolomy  # MongoDB connection string
     depends_on:
