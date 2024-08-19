@@ -214,9 +214,9 @@ used `docker image ls` to check images have tags as follows.
   !["Docker tags"](images/dockerimagetags.png)
 
 
-## Week 8 IP 4 Orchestration
+## Orchestration IP  4
 
-## 1. Apply the Kubernetes Manifests
+## 1. Introduce K8s Manifests
 ```bash
     kubectl apply -f persistent-volume.yaml
     kubectl apply -f persistent-volume-claim.yaml
@@ -227,7 +227,7 @@ used `docker image ls` to check images have tags as follows.
     kubectl apply -f frontend-deployment.yaml
     kubectl apply -f frontend-service.yaml
 ```
-## 2. Verify the deployments
+## 2. Confirm  deployments
 Confirm the status of the services:
 
     ```bash
@@ -236,7 +236,7 @@ Confirm the status of the services:
 
     Make sure the `EXTERNAL-IP` is assigned to access the client and backend.
 
-    ## 6. Kubernetes Resources
+
 
 ### a. MongoDB StatefulSet
 
